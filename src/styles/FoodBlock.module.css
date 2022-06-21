@@ -1,0 +1,21 @@
+.FoodBlock {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1024px) {
+  .FoodBlock {
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .FoodBlock {
+    width: 100%;
+    flex-direction: column;
+  }
+}

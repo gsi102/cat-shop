@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Exo2.0-Thin";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../assets/fonts/Exo2.0-Thin.otf");
+}
+
+* {
+  padding: 0rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 2rem 0;
+}
+
+body {
+  padding: 2rem;
+  font-family: "Exo2.0-Thin";
+  background: url("../assets/img/bg.png") center/100% repeat;
+}
+
+.wrapper {
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
